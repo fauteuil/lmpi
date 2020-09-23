@@ -1,0 +1,9 @@
+{
+  "name": "loom-media-panel-importer",
+  "version": "1.0.0",
+  "description": "A simple Media Panel importer to move items from Classic mpc to Loom",
+  "main": "index.js",
+  "repository": "https://github.com/fauteuil/lmpi",
+  "author": "Dave Held",
+  "license": "MIT"
+}
