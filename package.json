@@ -1,9 +1,33 @@
 {
-  "name": "loom-media-panel-importer",
-  "version": "1.0.0",
-  "description": "A simple Media Panel importer to move items from Classic mpc to Loom",
-  "main": "index.js",
-  "repository": "https://github.com/fauteuil/lmpi",
   "author": "Dave Held",
-  "license": "MIT"
+  "dependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "description": "A simple Media Panel importer to move items from Classic mpc to Loom",
+  "devDependencies": {
+    "@types/react": "^16.9.50",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "source-map-loader": "^1.1.0",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "loom-media-panel-importer",
+  "repository": "https://github.com/fauteuil/lmpi",
+  "resolutions": {
+    "@types/react": "^16.9.50"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "version": "1.0.0"
 }
