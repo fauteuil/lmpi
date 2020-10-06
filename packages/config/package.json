@@ -1,0 +1,7 @@
+{
+  "name": "@lmpi/config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dave Held",
+  "license": "MIT"
+}
