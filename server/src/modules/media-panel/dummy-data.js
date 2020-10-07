@@ -1,4 +1,4 @@
-const DumboData = [
+const MediaPanelDummyData = [
   {
     id: "http://url-to-the-data.com/1325851",
     added: 1600952507000,
@@ -55,3 +55,5 @@ const DumboData = [
     updated: 1601958466000
   }
 ];
+
+module.exports = { MediaPanelDummyData };
