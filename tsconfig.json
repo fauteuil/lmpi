@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "paths": {
+      "@lmpi/client/*": ["client/src/*"],
+      "@lmpi/server/*": ["server/src/*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2018",
+    "typeRoots": ["@types", "node_modules/@types"]
+  }
+}

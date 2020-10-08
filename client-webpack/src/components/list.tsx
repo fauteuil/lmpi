@@ -39,11 +39,11 @@ export const MediaPanelList: FC<IMediaPanelListProps> = ({
 		if (defaultMediaPanel && onSelect) {
 			onSelect(defaultMediaPanel);
 		}
-	}, [loading, defaultMediaPanel, onSelect]);
+	}, [loading]);
 
 	//   if (loading) return <LoadingAnimation />;
 	if (loading) return <span>Loading...</span>;
-	if (error)
+	if (error) {
 		return (
 			<p>
 				Error :(
@@ -51,6 +51,7 @@ export const MediaPanelList: FC<IMediaPanelListProps> = ({
 				{error.message}
 			</p>
 		);
+	}
 
 	const currentId = selectedId || defaultMediaPanel?.id;
 
