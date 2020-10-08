@@ -17,7 +17,8 @@
   ],
   "scripts": {
     "client": "yarn --cwd client start",
-    "server": "yarn --cwd server start"
+    "server": "yarn --cwd server start",
+    "debug": "yarn server & yarn client"
   },
   "version": "1.0.0"
 }

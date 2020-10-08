@@ -1,11 +1,11 @@
 export interface IMediaPanel {
-  date: string;
-  description: string;
-  duration?: string;
-  category?: string;
-  imageUrl?: string;
-  id?: string;
-  username: string;
+	added: string;
+	guid?: string;
+	id?: string;
+	locked?: string;
+	order?: string;
+	title: string;
+	updated?: string;
 }
 
 export type MediaPanelKeys = keyof IMediaPanel;
@@ -13,5 +13,5 @@ export type MediaPanelKeys = keyof IMediaPanel;
 export type MediaPanel = Pick<IMediaPanel, MediaPanelKeys>;
 
 export interface IListItem {
-  selected?: boolean;
+	selected?: boolean;
 }
