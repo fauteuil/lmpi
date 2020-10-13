@@ -10,16 +10,26 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^5.1.4",
+    "apollo-boost": "^0.4.9",
+    "apollo-server-express": "^2.18.2",
+    "graphql": "^15.3.0",
     "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "typescript": "~3.7.2"
+    "recoil": "^0.0.13",
+    "styled-components": "^5.2.0",
+    "typescript": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "nodemon src/server/src/index.js",
+    "debug": "yarn serve | yarn start"
   },
   "eslintConfig": {
     "extends": "react-app"
